@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCE49C" />
+      <stop offset="35%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#997321" />
+      <stop offset="100%" stop-color="#E6C25A" />
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#FCE49C" />
+      <stop offset="100%" stop-color="#997321" />
+    </linearGradient>
+  </defs>
+
+  <!-- Rounded Square Dark Background -->
+  <rect x="0" y="0" width="512" height="512" rx="112" ry="112" fill="#0B0B0D" />
+
+  <!-- Subtle Outer Gold Border -->
+  <rect x="12" y="12" width="488" height="488" rx="100" ry="100" fill="none" stroke="url(#goldGrad)" stroke-width="6" opacity="0.5" />
+
+  <!-- Stylized Geometric 'A' with Gold Crossbar -->
+  <g transform="translate(0, 12)">
+    <!-- Left Leg of A -->
+    <polygon points="236,110 276,110 172,380 120,380" fill="#FFFFFF" />
+    <!-- Right Leg of A -->
+    <polygon points="236,110 276,110 392,380 340,380" fill="#FFFFFF" />
+    <!-- Top Apex Connector -->
+    <polygon points="236,110 276,110 296,158 216,158" fill="#FFFFFF" />
+    <!-- Gold Crossbar -->
+    <polygon points="200,276 312,276 326,312 186,312" fill="url(#barGrad)" />
+  </g>
+</svg>

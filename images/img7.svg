@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 48" width="120" height="48" fill="none">
+  <!-- Crossed Flags V-shape -->
+  <!-- Left Flag -->
+  <path d="M60 34 C50 24, 34 21, 22 25 L26 12 C38 8, 52 13, 60 24 Z" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M60 34 L58 40" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Right Flag -->
+  <path d="M60 34 C70 24, 86 21, 98 25 L94 12 C82 8, 68 13, 60 24 Z" stroke="#FFFFFF" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M60 34 L62 40" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round"/>
+  <!-- Checkered accents left -->
+  <path d="M32 14 L38 13 L37 18 L31 19 Z" fill="#FFFFFF"/>
+  <path d="M43 15 L49 17 L47 22 L41 20 Z" fill="#FFFFFF"/>
+  <!-- Checkered accents right -->
+  <path d="M88 14 L82 13 L83 18 L89 19 Z" fill="#FFFFFF"/>
+  <path d="M77 15 L71 17 L73 22 L79 20 Z" fill="#FFFFFF"/>
+</svg>

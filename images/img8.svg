@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 48" width="120" height="48" fill="none">
+  <!-- Outer GT-R style shield/badge -->
+  <path d="M40 8 L80 8 L77 33 L60 41 L43 33 Z" stroke="#FFFFFF" stroke-width="2.2" stroke-linejoin="round"/>
+  <!-- Diagonal slash -->
+  <line x1="42" y1="24" x2="78" y2="24" stroke="#FFFFFF" stroke-width="1.4"/>
+  <!-- GT -->
+  <text x="60" y="20" fill="#FFFFFF" font-family="Arial Black, Impact, sans-serif" font-weight="900" font-size="11" text-anchor="middle" letter-spacing="1">GT</text>
+  <!-- R -->
+  <text x="60" y="34" fill="#FFFFFF" font-family="Arial Black, Impact, sans-serif" font-weight="900" font-size="12" text-anchor="middle">R</text>
+</svg>

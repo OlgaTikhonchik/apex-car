@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 48" width="120" height="48" fill="none">
+  <!-- Shield -->
+  <path d="M44 6 L76 6 L79 13 L73 34 L60 43 L47 34 L41 13 Z" stroke="#FFFFFF" stroke-width="2.2" stroke-linejoin="round"/>
+  <path d="M47 9 L73 9 L75.5 14 L70.5 32 L60 39.5 L49.5 32 L44.5 14 Z" stroke="#FFFFFF" stroke-width="1"/>
+  <!-- Charging Bull silhouette -->
+  <path d="M51 28 L53 23 L51 20 L54 18 L57 17 L61 16 L65 18 L68 16 L66 19 L69 20 L66 22 L67 27 L64 27 L63 23 L58 24 L56 29 L53 29 L54 25 L52 28 Z" fill="#FFFFFF"/>
+</svg>

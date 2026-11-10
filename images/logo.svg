@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B89242" />
+      <stop offset="30%" stop-color="#F7E29C" />
+      <stop offset="55%" stop-color="#D4AF37" />
+      <stop offset="80%" stop-color="#FFF0B8" />
+      <stop offset="100%" stop-color="#9E792C" />
+    </linearGradient>
+    <linearGradient id="goldBar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9E792C" />
+      <stop offset="25%" stop-color="#F7E29C" />
+      <stop offset="50%" stop-color="#FFF2BD" />
+      <stop offset="75%" stop-color="#C89E3C" />
+      <stop offset="100%" stop-color="#8A661F" />
+    </linearGradient>
+  </defs>
+
+  <!-- A -->
+  <path d="M 145 55 L 185 55 L 265 245 L 222 245 L 165 103 L 108 245 L 65 245 Z" fill="#FFFFFF" />
+  <rect x="128" y="185" width="74" height="26" fill="#FFFFFF" />
+
+  <!-- P -->
+  <path d="M 300 55 L 425 55 C 468 55 495 80 495 118 C 495 156 468 182 425 182 L 340 182 L 340 245 L 300 245 Z M 340 88 L 340 149 L 418 149 C 442 149 455 137 455 118 C 455 99 442 88 418 88 Z" fill="#FFFFFF" />
+
+  <!-- E (three horizontal bars, middle gold) -->
+  <rect x="535" y="55" width="160" height="33" fill="#FFFFFF" />
+  <rect x="535" y="133" width="160" height="34" fill="url(#goldBar)" />
+  <rect x="535" y="212" width="160" height="33" fill="#FFFFFF" />
+
+  <!-- X (left chevron gold, right chevron white) -->
+  <polygon points="730,55 776,55 838,150 776,245 730,245 792,150" fill="url(#goldGrad)" />
+  <polygon points="940,55 894,55 844,132 867,168" fill="#FFFFFF" />
+  <polygon points="940,245 894,245 844,168 867,132" fill="#FFFFFF" />
+</svg>
